@@ -1,7 +1,10 @@
 {
   "generator-jhipster": {
-    "jhipsterVersion": "7.1.0",
+    "jhipsterVersion": "7.3.0",
     "baseName": "JHipsterRegistry",
+    "dasherizedBaseName": "jhipster-registry",
+    "humanizedBaseName": "JHipster Registry",
+    "projectDescription": "JHipster service registry, made with Netflix Eureka and Spring Cloud Config",
     "packageName": "tech.jhipster.registry",
     "packageFolder": "tech/jhipster/registry",
     "serverPort": "8761",
@@ -17,7 +20,7 @@
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSocialSignIn": false,
-    "jwtSecretKey": "c9d37cefc48581919939d587c750ea215020765b",
+    "jwtSecretKey": "NmQ3NTY1NjhlZGY2NmEzNzUxMjFkZDVmNTA3YjRiNWIxMzM2ZGRiNDNlYjFkMDc2YzdlYTgzYjVkNTNlZGU0NTdiNDg5OTUyNTZjYmNiYjlkMWNjNjE5MTE2NjVhZjM2MmZkYTdiYjRkNGZiMDU5MzhmMDIzYTE4ZjQ3ZTVmMTU=",
     "useSass": true,
     "enableTranslation": false,
     "applicationType": "monolith",
@@ -56,6 +59,8 @@
     "nativeLanguage": "en",
     "languages": ["en", "fr"],
     "reactive": false,
-    "devServerPort": 4200
+    "devServerPort": 4200,
+    "enableGradleEnterprise": false,
+    "entities": []
   }
 }
