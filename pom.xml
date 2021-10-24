@@ -8,7 +8,7 @@
     <groupId>tech.jhipster.registry</groupId>
     <artifactId>jhipster-registry</artifactId>
     <version>7.1.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>JHipster Registry</name>
     <description>JHipster service registry, made with Netflix Eureka and Spring Cloud Config</description>
 
@@ -934,6 +934,7 @@
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-undertow</artifactId>
+                    <scope>provided</scope>
                 </dependency>
             </dependencies>
             <build>
